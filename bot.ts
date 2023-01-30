@@ -81,8 +81,8 @@ Tags: ${gmetadata.tags.map((val) => {
     const tag = parts[1].replaceAll(" ", "_");
     return `#${tag}`;
   })}
-E-Hentai: https://e-hentai.org/${gmetadata.gid}/${gmetadata.token}
-ExHentai: https://exhentai.org/${gmetadata.gid}/${gmetadata.token}
+E-Hentai: https://e-hentai.org/g/${gmetadata.gid}/${gmetadata.token}
+ExHentai: https://exhentai.org/g/${gmetadata.gid}/${gmetadata.token}
 `;
 
   bot.sendPhoto(channel, gmetadata.thumb, {

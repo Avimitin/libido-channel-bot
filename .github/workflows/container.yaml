@@ -18,4 +18,4 @@ jobs:
       - uses: docker/build-push-action@v3
         with:
           push: true
-          tags: ghcr.io/avimitin/libido-bot:latest
+          tags: ghcr.io/avimitin/libido-channel-bot:latest
